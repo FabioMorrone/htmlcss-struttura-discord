@@ -5,6 +5,8 @@
 
 }
 
+
+
 .debug * {
     border: 1px dashed;
 }
@@ -17,8 +19,13 @@
     list-style: none;
 }
 
+.container {
+    width: 70%;
+}
+
+
 header {
-    min-height: 120px;
+    min-height: 10px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -47,107 +54,110 @@ header {
 
 
 
-.jumbotron
-{
-    padding-top: 2rem;
-    padding-bottom: 2 rem;
+.jumbotron {
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-    font-size: 150px;
+    font-size: 40px;
     background-color: blue;
 
     div {
         display: flex;
         background-color: rgb(238, 8, 226)
     }
+
 }
 
 
 
-.invite-only 
-{
-    padding-top: 2rem;
-    padding-bottom: 2 rem;
+.invite-only {
+
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     font-size: 150px;
     background-color: rgb(255, 255, 255);
 
-    div {
+    .box-small {
         display: flex;
 
-    
-            background-color: rgb(24, 138, 184);
-            text-align: center;
-        
-
-    
-            background-color: rgb(194, 134, 186);
-            text-align: center;
-
-        
+        background-color: rgb(24, 138, 184);
+        text-align: center;
     }
+
+    .box-big {
+        background-color: rgb(194, 134, 186);
+        text-align: center;
+
+    }
+
+
+
+
+
+
+
 }
 
-.community
-{
-    padding-top: 2rem;
-    padding-bottom: 2 rem;
+
+.community {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 150px;
     background-color: #868585;
 
-    div {
+    .box-small {
         display: flex;
-        flex-direction: row-reverse;
 
-         
-            background-color: rgb(24, 138, 184);
-            text-align: center;
-    
+        background-color: rgb(24, 138, 184);
+        text-align: center;
+    }
 
-        
-            background-color: rgb(194, 134, 186);
-            text-align: center;
-          }
+    .box-big {
+        background-color: rgb(194, 134, 186);
+        text-align: center;
+
+    }
 }
 
-.fandom
-{
-    padding-top: 2rem;
-    padding-bottom: 2 rem;
+.fandom {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     display: flex;
     justify-content: space-around;
     align-items: center;
     font-size: 150px;
     background-color: rgb(255, 255, 255);
 
-    div {
+    .box-small {
         display: flex;
 
-        h2 {
-            background-color: rgb(24, 138, 184);
-            text-align: center;
-        }
-
-        p {
-            background-color: rgb(194, 134, 186);
-            text-align: center;
-
-        }
+        background-color: rgb(24, 138, 184);
+        text-align: center;
     }
+
+    .box-big {
+        background-color: rgb(194, 134, 186);
+        text-align: center;
+
+    }
+
 }
 
-.technology
-{
-    padding-top: 2rem;
-    padding-bottom: 2 rem;
+.technology {
+    height: 100%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     font-size: 150px;
     background-color: rgb(83, 83, 82);
@@ -157,5 +167,3 @@ header {
         background-color: rgb(22, 85, 2)
     }
 }
-
-
