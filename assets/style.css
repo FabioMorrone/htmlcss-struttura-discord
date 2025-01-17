@@ -33,7 +33,8 @@ header {
 
         ul.list-unstyled {
             display: flex;
-            gap: 1rem;
+            gap: 2rem;
+            
 
             a {
                 text-decoration: none;
@@ -43,3 +44,23 @@ header {
         }
     }
 }
+
+.debug main{
+background-color: blue;
+}
+
+main{
+    min-height: 350px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 150px;
+
+    div{
+        display: flex;
+        background-color: rgb(238, 8, 226)
+    }
+}
+
+
+
