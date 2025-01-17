@@ -9,90 +9,37 @@
     border: 1px dashed;
 }
 
+.debug header {
+    background-color: #0ee9c4;
+}
 
+.list-unstyled {
+    list-style: none;
+}
 
 header {
-    min-height: 50px;
+    min-height: 120px;
     display: flex;
-    background-color: rgb(45, 230, 190);
-    height: 50px;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+    font-size: 25px;
+    color: rgb(7, 7, 7);
 
 
-    .container {
-        width: 800%;
-        min-width: 3rem;
-        min-height: 1%;
-        margin: 1rem;
-        background-color: rgb(180, 132, 42);
-        justify-content: center;
-    }
-}
+    div {
+        display: flex;
+        background-color: rgb(175, 167, 51);
 
+        ul.list-unstyled {
+            display: flex;
+            gap: 1rem;
 
+            a {
+                text-decoration: none;
+                color: black;
+            }
 
-.flex-container {
-    display: flex;
-   
-
-
-}
-
-.jumbotron {
-
-    background-color: rgb(3, 60, 247);
-    display: flex;
-    height: 200px;
-
-    .container {
-        width: 50%;
-        max-width: 100rem;
-        margin: auto;
-        background-color: rgb(239, 7, 247);
-    }
-
-
-}
-
-.invite-only {
-    background-color: rgb(228, 178, 16);
-    display: flex;
-    height: 300px;
-    .container {
-        width: 80%;
-        max-width: 300rem;
-        margin: auto;
-    }
-}
-
-.community {
-    background-color: rgb(42, 100, 4);
-    display: flex;
-    height: 300px;
-    .container {
-        width: 80%;
-        max-width: 300rem;
-        margin: auto;
-    }
-}
-
-.fandom {
-    background-color: rgb(10, 233, 177);
-    display: flex;
-    height: 300px;
-    .container {
-        width: 80%;
-        max-width: 300rem;
-        margin: auto;
-    }
-}
-
-.technology {
-    background-color: rgb(122, 60, 236);
-    display: flex;
-    height: 300px;
-    .container {
-        width: 80%;
-        max-width: 300rem;
-        margin: auto;
+        }
     }
 }
