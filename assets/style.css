@@ -34,7 +34,7 @@ header {
         ul.list-unstyled {
             display: flex;
             gap: 2rem;
-            
+
 
             a {
                 text-decoration: none;
@@ -45,18 +45,19 @@ header {
     }
 }
 
-.debug main{
-background-color: blue;
-}
 
-main{
+
+
+.jumbotron
+{
     min-height: 350px;
     display: flex;
     justify-content: space-around;
     align-items: center;
     font-size: 150px;
+    background-color: blue;
 
-    div{
+    div {
         display: flex;
         background-color: rgb(238, 8, 226)
     }
@@ -64,3 +65,93 @@ main{
 
 
 
+.invite-only 
+{
+    min-height: 350px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 150px;
+    background-color: rgb(255, 255, 255);
+
+    div {
+        display: flex;
+
+        h2 {
+            background-color: rgb(24, 138, 184);
+            text-align: center;
+        }
+
+        p {
+            background-color: rgb(194, 134, 186);
+            text-align: center;
+
+        }
+    }
+}
+
+.community
+{
+    min-height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 150px;
+    background-color: rgb(156, 154, 154);
+
+    div {
+        display: flex;
+        flex-direction: row-reverse;
+
+        h2 {
+            background-color: rgb(24, 138, 184);
+            text-align: center;
+        }
+
+        p {
+            background-color: rgb(194, 134, 186);
+            text-align: center;
+
+        }
+    }
+}
+
+.fandom
+{
+    min-height: 350px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 150px;
+    background-color: rgb(255, 255, 255);
+
+    div {
+        display: flex;
+
+        h2 {
+            background-color: rgb(24, 138, 184);
+            text-align: center;
+        }
+
+        p {
+            background-color: rgb(194, 134, 186);
+            text-align: center;
+
+        }
+    }
+}
+
+.technology
+{
+    min-height: 350px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 150px;
+    background-color: rgb(15, 88, 5);
+
+    div {
+        display: flex;
+        background-color: rgb(95, 95, 95)
+    }
+}
