@@ -47,10 +47,10 @@ header {
 
 
 
-
 .jumbotron
 {
-    min-height: 350px;
+    padding-top: 2rem;
+    padding-bottom: 2 rem;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -67,7 +67,8 @@ header {
 
 .invite-only 
 {
-    min-height: 350px;
+    padding-top: 2rem;
+    padding-bottom: 2 rem;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -77,48 +78,48 @@ header {
     div {
         display: flex;
 
-        h2 {
+    
             background-color: rgb(24, 138, 184);
             text-align: center;
-        }
+        
 
-        p {
+    
             background-color: rgb(194, 134, 186);
             text-align: center;
 
-        }
+        
     }
 }
 
 .community
 {
-    min-height: 350px;
+    padding-top: 2rem;
+    padding-bottom: 2 rem;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 150px;
-    background-color: rgb(156, 154, 154);
+    background-color: #868585;
 
     div {
         display: flex;
         flex-direction: row-reverse;
 
-        h2 {
+         
             background-color: rgb(24, 138, 184);
             text-align: center;
-        }
+    
 
-        p {
+        
             background-color: rgb(194, 134, 186);
             text-align: center;
-
-        }
-    }
+          }
 }
 
 .fandom
 {
-    min-height: 350px;
+    padding-top: 2rem;
+    padding-bottom: 2 rem;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -143,15 +144,18 @@ header {
 
 .technology
 {
-    min-height: 350px;
+    padding-top: 2rem;
+    padding-bottom: 2 rem;
     display: flex;
     justify-content: space-around;
     align-items: center;
     font-size: 150px;
-    background-color: rgb(15, 88, 5);
+    background-color: rgb(83, 83, 82);
 
     div {
         display: flex;
-        background-color: rgb(95, 95, 95)
+        background-color: rgb(22, 85, 2)
     }
 }
+
+
