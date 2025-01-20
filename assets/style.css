@@ -1,170 +1,117 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-
-
-.debug * {
-    border: 1px dashed;
+:root
+{
+  --dis-primary-color: deepskyblue;
 }
 
-.debug header {
-    background-color: #0ee9c4;
+section
+{
+  padding: 1rem;
+}
+.container
+{
+  width: 80%;
+  margin: auto;
 }
 
-.list-unstyled {
-    list-style: none;
+.d-flex
+{
+  display: flex;
 }
 
-.container {
-    width: 70%;
+.w-40
+{
+  width: 40%;
 }
-
-
-header {
-    min-height: 10px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 30px;
-    font-size: 25px;
-    color: rgb(7, 7, 7);
-
-
-    div {
-        display: flex;
-        background-color: rgb(175, 167, 51);
-
-        ul.list-unstyled {
-            display: flex;
-            gap: 2rem;
-
-
-            a {
-                text-decoration: none;
-                color: black;
-            }
-
-        }
-    }
+.w-60
+{
+  width: 60%;
 }
+/* Header */
+header
+{
+  background-color: var(--dis-primary-color);
+  padding: 1rem 0;
 
+  .logo,
+  .actions
+  {
+    flex-grow: 1;
+  }
 
+  .actions
+  {
+    text-align: end;
+  }
 
-.jumbotron {
+  .menu
+  {
+    flex-grow: 2;
     text-align: center;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 150px;
+  }
+
+}
+
+
+/* Main */
+
+.debug
+{
+  *
+  {
+    border: 1px dashed;
+  }
+  .container
+  {
+    background-color: orange;
+  }
+  .jumbotron
+  {
+    height: 400px;
+
+    .content
+    {
+      height: 100%;
+      background-color: orange;
+    }
+  }
+  .w-40,
+  .w-60
+  {
+    height: 300px;
     background-color: blue;
+  }
+}
 
+.jumbotron
+{
+  background-color: var(--dis-primary-color);
+  padding: 1rem;
 
-    div {
-        display: flex;
-        background-color: rgb(197, 34, 148)
-    }
+  .content
+  {
+    width: 70%;
+    margin: auto;
 
+  }
+}
+.technology
+{
+  .container
+  {
+    min-height: 450px;
+  }
 }
 
 
 
-.invite-only {
-
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 150px;
-    background-color: rgb(255, 255, 255);
-
-    .box-small {
-        display: flex;
-
-        background-color: rgb(24, 138, 184);
-        text-align: center;
-    }
-
-    .box-big {
-        background-color: rgb(194, 134, 186);
-        text-align: center;
-
-    }
 
 
 
 
-
-
-
-}
-
-
-.community {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 150px;
-    background-color: #868585;
-
-    .box-small {
-        display: flex;
-
-        background-color: rgb(24, 138, 184);
-        text-align: center;
-    }
-
-    .box-big {
-        background-color: rgb(194, 134, 186);
-        text-align: center;
-
-    }
-}
-
-.fandom {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    font-size: 150px;
-    background-color: rgb(255, 255, 255);
-
-    .box-small {
-        display: flex;
-
-        background-color: rgb(24, 138, 184);
-        text-align: center;
-    }
-
-    .box-big {
-        background-color: rgb(194, 134, 186);
-        text-align: center;
-
-    }
-
-}
-
-.technology {
-    height: 100%;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 150px;
-    background-color: rgb(83, 83, 82);
-
-    div {
-        display: flex;
-        background-color: rgb(22, 85, 2)
-    }
-}
