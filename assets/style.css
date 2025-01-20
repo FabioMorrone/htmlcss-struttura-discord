@@ -1,117 +1,121 @@
-*
-{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-:root
-{
-  --dis-primary-color: deepskyblue;
+:root {
+    --dis-primary-color: deepskyblue;
+    --dis-primary-dark: rgb(0, 29, 39);
 }
 
-section
-{
-  padding: 1rem;
-}
-.container
-{
-  width: 80%;
-  margin: auto;
+section {
+    padding: 1rem;
 }
 
-.d-flex
-{
-  display: flex;
+.container {
+    width: 80%;
+    margin: auto;
 }
 
-.w-40
-{
-  width: 40%;
+.d-flex {
+    display: flex;
 }
-.w-60
-{
-  width: 60%;
+
+.justify-content-between{
+    justify-content: space-between;
 }
+
+.w-20 {
+    width: 20%;
+}
+
+.w-80 {
+    width: 80%;
+}
+
+.w-40 {
+    width: 40%;
+}
+
+.w-60 {
+    width: 60%;
+}
+
 /* Header */
-header
-{
-  background-color: var(--dis-primary-color);
-  padding: 1rem 0;
+header {
+    background-color: var(--dis-primary-color);
+    padding: 1rem 0;
 
-  .logo,
-  .actions
-  {
-    flex-grow: 1;
-  }
+    .logo,
+    .actions {
+        flex-grow: 1;
+    }
 
-  .actions
-  {
-    text-align: end;
-  }
+    .actions {
+        text-align: end;
+    }
 
-  .menu
-  {
-    flex-grow: 2;
-    text-align: center;
-  }
+    .menu {
+        flex-grow: 2;
+        text-align: center;
+    }
 
 }
 
 
 /* Main */
 
-.debug
-{
-  *
-  {
-    border: 1px dashed;
-  }
-  .container
-  {
-    background-color: orange;
-  }
-  .jumbotron
-  {
-    height: 400px;
-
-    .content
-    {
-      height: 100%;
-      background-color: orange;
+.debug {
+    * {
+        border: 1px dashed;
     }
-  }
-  .w-40,
-  .w-60
-  {
-    height: 300px;
-    background-color: blue;
-  }
+
+    .container {
+        background-color: orange;
+    }
+
+    .jumbotron {
+        height: 400px;
+
+        .content {
+            height: 100%;
+            background-color: orange;
+        }
+    }
+
+    .w-40,
+    .w-60 {
+        height: 300px;
+        background-color: blue;
+    }
 }
 
-.jumbotron
-{
-  background-color: var(--dis-primary-color);
-  padding: 1rem;
+.jumbotron {
+    background-color: var(--dis-primary-color);
+    padding: 1rem;
 
-  .content
-  {
-    width: 70%;
-    margin: auto;
+    .content {
+        width: 70%;
+        margin: auto;
 
-  }
+    }
 }
-.technology
-{
-  .container
-  {
+
+.technology {
+    .container {
+        min-height: 450px;
+    }
+}
+
+footer {
+    background-color: var(--dis-primary-dark);
     min-height: 450px;
-  }
+
+    .w-80.d-flex {
+        div {
+            flex-grow: 1;
+        }
+
+    }
 }
-
-
-
-
-
-
-
